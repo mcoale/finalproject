@@ -3,6 +3,9 @@
    License: none (public domain)
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,8 +49,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 
 :root {
     --blue: #1F4373;
@@ -108,6 +109,10 @@ h1 {
 }
 
 #home {
+    display: none;
+}
+
+#burger h2 {
     display: none;
 }
 
@@ -190,7 +195,7 @@ a {
 }
 
 #bun:checked ~ #patty {
-    left: -249px;
+    left: -247px;
     top: -32px;
 }
 
@@ -376,7 +381,7 @@ main section {
     padding-top: 10px;
 }
 
-#scissoricon {
+.scissoricon {
     width: 18px;
     height: 16px;
     margin: 0 auto;
@@ -750,7 +755,7 @@ footer p {
         padding-top: 10px;
     }
     
-    #scissoricon {
+    .scissoricon {
         width: 18px;
         height: 16px;
         margin: 0 auto;
@@ -851,7 +856,7 @@ footer p {
         width: 600px;
         margin: 40px auto 0 auto;
         display: grid;
-        grid-template-columns: 290 290px;
+        grid-template-columns: 290px 290px;
         grid-template-rows: 60px 60px 60px;
         column-gap: 20px;
     }
@@ -1099,7 +1104,7 @@ footer p {
         font-size: 20px;
     }
     
-    #scissoricon {
+    .scissoricon {
         width: 20px;
         height: 18px;
         margin: 0 auto;
@@ -1196,7 +1201,7 @@ footer p {
         width: 960px;
         margin: 40px auto 0 auto;
         display: grid;
-        grid-template-columns: 470 470px;
+        grid-template-columns: 470px 470px;
         grid-template-rows: 60px 60px 60px;
         column-gap: 20px;
     }
